@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Megan Waite, MD, PLLC | Dermatology</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #009688, #4db6ac);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0; font-size: 2.5rem; font-weight: 700;
+    }
+    header p {
+      margin: 0.5rem 0 0; font-size: 1.2rem;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 1rem auto;
+      border: 4px solid white;
+      display: block;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #009688;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: #009688;
+      font-weight: bold;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    button {
+      background: #009688;
+      color: white;
+      padding: 0.9rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    button:hover { background: #00796b; }
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Placeholder profile image -->
+    <img src="https://via.placeholder.com/150" alt="Dr. Megan Waite" class="profile-pic">
+    <h1>Megan Waite, MD, PLLC</h1>
+    <p>Board-Certified Dermatologist – Boulder, CO</p>
+  </header>
+
+  <section>
+    <h2>About Dr. Waite</h2>
+    <p>
+      Dr. Megan Waite is a board-certified dermatologist dedicated to providing comprehensive skin care for patients in Boulder, Colorado. 
+      Her expertise includes medical, surgical, and cosmetic dermatology, with a focus on evidence-based and personalized treatments that help patients achieve healthy, radiant skin.
+    </p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>General Dermatology – acne, eczema, psoriasis</li>
+      <li>Skin Cancer Screenings & Treatment</li>
+      <li>Cosmetic Dermatology – Botox, fillers, skincare</li>
+      <li>Pediatric & Adolescent Dermatology</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><strong>Address:</strong> 123 Main Street, Boulder, CO 80301</p>
+    <p><strong>Phone:</strong> (303) 555-1234</p>
+    <p><strong>Email:</strong> info@drmeganwaite.com</p>
+  </section>
+
+  <section>
+    <h2>Feedback</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Send Feedback</button>
+    </form>
+    <p style="font-size:0.85rem;color:#555;margin-top:0.5rem;">
+      This form will securely send your feedback to Dr. Waite’s email.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Megan Waite, MD, PLLC | All Rights Reserved
+  </footer>
+</body>
+</html>
